@@ -1,0 +1,4 @@
+http://developer.android.com/guide/topics/connectivity/bluetooth.html
+
+http://stackoverflow.com/questions/12562875/android-bluetooth-example
+
