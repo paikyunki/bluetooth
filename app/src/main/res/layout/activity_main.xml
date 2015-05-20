@@ -33,8 +33,9 @@
                 android:id="@+id/button1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="on"
-                android:text="Turn on" />
+                android:onClick="turnOnBluetooth"
+                android:text="Turn on Bluetooth"
+                android:nestedScrollingEnabled="true" />
 
             <Button
                 android:id="@+id/button2"
@@ -48,14 +49,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="list"
-                android:text="List Devices" />
+                android:text="List Paired Devices" />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="off"
-                android:text="Turn Off" />
+                android:text="Turn Off Bluetooth" />
 
             <ListView
                 android:id="@+id/listView1"
